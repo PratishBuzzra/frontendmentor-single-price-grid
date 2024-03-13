@@ -1,0 +1,149 @@
+@import url(https://fonts.google.com/specimen/Karla);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla";
+   
+    
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Karla";
+    font-size: 16px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 2em;
+}
+.community{
+    grid-column: span 2;
+    padding: 40px;
+    padding-right: 25%;
+}
+.community h1{
+    color:  hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.community h2{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 18px;
+}
+.community p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 400;
+
+}
+.subscription{
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px 40px;
+    color: white;
+    border-radius: 0 0 0 10px;
+}
+.subscription h1{
+    font-weight: 700;
+    font-size: 1.1rem;
+
+}
+.subscription h2{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.7rem;
+
+}
+.subscription h2 span{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: hsl(204, 43%, 93%);
+}
+.subscription p{
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+button{
+    color: white;
+    font-family: 400;
+    font-size: 1em;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+   
+}
+.why-us{
+    background-color: hsla(179, 62%, 43%, 0.75);
+    padding: 30px 40px;
+    border-radius: 0 0 10px 0;
+}
+.why-us h1{
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+ul{
+    list-style: none;
+    margin-top: 10px;
+}
+li{
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+footer{
+    color: black;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    
+        position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+}
+footer p{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+@media only screen and (max-width: 650px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .subscription{
+        border-radius: 0;
+    }
+    .why-us{
+        border-radius: 0 0 10px 10px;
+    }
+    footer{
+        position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+    
+}

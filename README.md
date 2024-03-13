@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github solution](https://github.com/PratishBuzzra/frontendmentor-single-price-grid.git)
+- Live Site URL: [Github page live URL](https://pratishbuzzra.github.io/frontendmentor-single-price-grid/)
 
 ## My process
 
@@ -46,4 +46,4 @@ Users should be able to:
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@PratishBuzzra](https://www.frontendmentor.io/profile/PratishBuzzra)
